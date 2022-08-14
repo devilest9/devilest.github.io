@@ -220,7 +220,24 @@ text-decoration: none;
 color:#000a23;
 
     }
+    .titlex {
+        display: flex;
+        justify-content: center;
+        color: #ffffff;
+        font-size: 2.5em;
+        font-weight: 800;
+        text-decoration: none;
+        margin-bottom: 170px;
+        transition: 0.5s ease;
+        }
 
+        .titlex:hover {
+transform: scale(1.1);
+opacity: 0.9;
+color: rgb(255, 221, 0);
+
+
+        }
     .more-detailss  {
         color: #3300ff;
         text-decoration: none;
@@ -302,6 +319,9 @@ opacity: 0.9;
     margin-bottom: 10px;
 
 }
+.c1 {
+    background-color: rgba(2,11,26,255);
+    }
 
 .title3 {
     display: flex;
@@ -359,6 +379,8 @@ justify-content: space-between;
 .footer-title span{
 color: #0044ff;
 }
+
+
 
 @media (max-width:1023px){
     
@@ -422,6 +444,7 @@ section {
             width: 100%;
 
         }
+ 
         
 
 }
@@ -500,5 +523,4 @@ section {
         justify-content: center;
         width: 100%;
     }
-    
 }
