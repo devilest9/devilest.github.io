@@ -191,7 +191,7 @@ width:100%;
     }
 
     .GA {
-        background-color: red;
+        background-color: rgb(10, 0, 39) ;
         
         }
     .video-info {
@@ -347,7 +347,7 @@ opacity: 0.9;
     transition: 0.5s ease;
     }
     .suggest{
-background-color: gold;
+background-color:  rgb(10, 0, 39);
 
     }
 
@@ -357,12 +357,12 @@ opacity: 0.90;
 }
 
 .news{
-background-color: #00040e;
+background-color:  rgb(10, 0, 39);
 
 }
 
 .Gifts {
-background-color: gold;
+background-color:  rgb(10, 0, 39);
 
 }
 .images2 {
@@ -377,6 +377,18 @@ background-color: gold;
 opacity: 0.90;
 transform: scale(1.1);
     
+}
+
+.backgroundimg{
+background-size: cover;
+background-repeat: no-repeat;
+width: 200px;
+height: 100vh;
+margin: 0;
+padding: 0;
+z-index: 0;
+
+
 }
 
 .footer{
